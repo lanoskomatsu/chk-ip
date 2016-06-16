@@ -7,15 +7,15 @@ def chkIp (ip)
 
   ansAry = Array.new
 
-  ans = "true"
+  ans = true
   if(ary.length == 4)
     for n in ary
       if(!(n.length <= 3))
-        ans = "false"
+        ans = false
       end
     end
   else
-    ans = "false"
+    ans = false
   end
 
   p ans
